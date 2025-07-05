@@ -10,6 +10,6 @@ with open("leaderboard.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
 
 for i, line in enumerate(lines):
-    draw.text((50, 50 + i*40), line, font=font, fill="white")
+    draw.text((40, 210 + i*40), line, font=font, fill="white")
 
 img.save("leaderboard.png")
