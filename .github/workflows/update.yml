@@ -1,0 +1,30 @@
+name: Build and deploy leaderboard
+
+on:
+  push:
+    paths:
+      - leaderboard.txt
+      - template.png
+      - generate_image.py
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pillow
+
+      - name: Generate leaderboard image
+        run: python generate_image.py
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
