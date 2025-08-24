@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 with open("leaderboard.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
 big_font_ratio = 1.525
-font_size = 1050/len(lines)
+font_size = 900/len(lines)
 # long text may exceed image, so font has a max size
 if font_size > 55:
     font_size = 55
@@ -19,7 +19,7 @@ cols = 0
 width, height = img.size
 scale_Y = height/width
 text_len = (width-border)#/3
-current_y = 0
+current_y = 240
 
 
 for i, line in enumerate(lines):
@@ -43,4 +43,5 @@ for i, line in enumerate(lines):
         cols+=1
 
 img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
+
 img.save("leaderboard.png")
