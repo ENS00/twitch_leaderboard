@@ -1,0 +1,7 @@
+# Privacy Policy
+
+This Twitch extension does not collect, store, or share any personal information about users.  
+It only displays an image hosted on GitHub Pages.  
+
+No cookies, tracking, or analytics are used.  
+No data is transmitted to external servers other than retrieving the static image file.
