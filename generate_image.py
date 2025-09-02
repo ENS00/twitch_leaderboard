@@ -42,6 +42,7 @@ for i, line in enumerate(lines):
         current_y = 0
         cols+=1
 
-img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
+# lower the resolution
+#img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
