@@ -1,6 +1,6 @@
 Funny Liquid [9]
+The Otter One [8]
 pvasnunes [7.5]
-The Otter One [7]
 Tipe [7]
 maxymczech [6]
 Ashur Arbaces [5]
@@ -25,5 +25,6 @@ M0in [1]
 Real men throw deer off cliffs [1]
 Matze [1]
 Smarttguyy [0.5]
+
 
 
