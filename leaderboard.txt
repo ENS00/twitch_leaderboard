@@ -9,7 +9,7 @@ Yeoman [4]
 GlobalWarning [3.5]
 dergrosseschantiiniii [3.5]
 calcoco [3]
-DJSapsan [2]
+DJSapsan [3]
 NuclearPasta [2]
 RedCansky [1]
 Suinella666 [1]
@@ -26,6 +26,7 @@ Real men throw deer off cliffs [1]
 Matze [1]
 Suikotsu [1]
 Smarttguyy [0.5]
+
 
 
 
