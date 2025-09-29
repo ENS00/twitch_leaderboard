@@ -1,9 +1,9 @@
 Funny Liquid [9]
+pvasnunes [8.5]
 The Otter One [8]
-pvasnunes [7.5]
 Tipe [7]
+Ashur Arbaces [7]
 maxymczech [6]
-Ashur Arbaces [6]
 Sylne4r [5]
 Yeoman [4]
 GlobalWarning [3.5]
@@ -27,6 +27,7 @@ Matze [1]
 Suikotsu [1]
 OGDaddy [1]
 Smarttguyy [0.5]
+
 
 
 
