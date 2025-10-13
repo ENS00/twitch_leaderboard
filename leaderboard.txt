@@ -1,4 +1,4 @@
-pvasnunes [9.5]
+pvasnunes [10.5]
 Funny Liquid [9]
 The Otter One [8]
 Tipe [7]
@@ -28,6 +28,7 @@ Suikotsu [1]
 OGDaddy [1]
 Happytheandy [1]
 Smarttguyy [0.5]
+
 
 
 
