@@ -3,7 +3,7 @@ Funny Liquid [9]
 The Otter One [8]
 Ashur Arbaces [8]
 Tipe [7]
-maxymczech [6]
+maxymczech [7]
 Sylne4r [5]
 Yeoman [4]
 GlobalWarning [3.5]
@@ -28,6 +28,7 @@ Suikotsu [1]
 OGDaddy [1]
 Happytheandy [1]
 Smarttguyy [0.5]
+
 
 
 
