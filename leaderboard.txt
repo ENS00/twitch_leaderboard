@@ -1,6 +1,6 @@
 pvasnunes [10.5]
 Funny Liquid [9]
-The Otter One [8]
+The Otter One [9]
 Ashur Arbaces [8]
 Tipe [7]
 maxymczech [7]
@@ -28,6 +28,7 @@ Suikotsu [1]
 OGDaddy [1]
 Happytheandy [1]
 Smarttguyy [0.5]
+
 
 
 
