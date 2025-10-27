@@ -6,10 +6,10 @@ Tipe [7]
 maxymczech [7]
 Sylne4r [5]
 Yeoman [4]
+DJSapsan [4]
 GlobalWarning [3.5]
 dergrosseschantiiniii [3.5]
 calcoco [3]
-DJSapsan [3]
 NuclearPasta [2]
 RedCansky [1]
 Suinella666 [1]
@@ -28,6 +28,7 @@ Suikotsu [1]
 OGDaddy [1]
 Happytheandy [1]
 Smarttguyy [0.5]
+
 
 
 
