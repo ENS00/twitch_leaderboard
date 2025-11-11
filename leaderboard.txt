@@ -1,5 +1,5 @@
 pvasnunes [11.5]
-Ashur Arbaces [10]
+Ashur Arbaces [11]
 Funny Liquid [9]
 The Otter One [9]
 Tipe [7]
@@ -30,6 +30,7 @@ OGDaddy [1]
 Happytheandy [1]
 Tortrix [1]
 Smarttguyy [0.5]
+
 
 
 
