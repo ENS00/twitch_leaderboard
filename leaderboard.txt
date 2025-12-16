@@ -1,10 +1,10 @@
 pvasnunes [12.5]
 Ashur Arbaces [11]
+The Otter One [9.5]
 Funny Liquid [9]
-The Otter One [9]
 Tipe [7]
 maxymczech [7]
-GlobalWarning [6.5]
+GlobalWarning [7]
 Sylne4r [5]
 Yeoman [4]
 DJSapsan [4]
@@ -32,6 +32,7 @@ Tortrix [1]
 Lorhey [1]
 Chris [1]
 Smarttguyy [0.5]
+
 
 
 
