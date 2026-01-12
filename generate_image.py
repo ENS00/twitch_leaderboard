@@ -4,6 +4,11 @@ from PIL import Image, ImageDraw, ImageFont
 with open("leaderboard.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
 big_font_ratio = 1.525
+
+# Load template
+img = Image.open("template.png")
+draw = ImageDraw.Draw(img)
+
 try:
     font_size = 900/len(lines)
     # long text may exceed image, so font has a max size
@@ -13,9 +18,6 @@ except: # empty file, nothing to write
     img.save("leaderboard.png")
     sys.exit(1)
 
-# Load template
-img = Image.open("template.png")
-draw = ImageDraw.Draw(img)
 font = ImageFont.truetype("Bekstap-Regular.ttf", font_size*big_font_ratio)#56
 
 border = 60
@@ -50,5 +52,6 @@ for i, line in enumerate(lines):
 #img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
+
 
 
