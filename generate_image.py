@@ -1,5 +1,6 @@
 # generate_image.py
 from PIL import Image, ImageDraw, ImageFont
+import sys
 
 with open("leaderboard.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
@@ -52,6 +53,7 @@ for i, line in enumerate(lines):
 #img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
+
 
 
 
