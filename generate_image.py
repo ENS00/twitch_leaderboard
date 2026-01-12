@@ -17,7 +17,7 @@ try:
         font_size = 55
 except: # empty file, nothing to write
     img.save("leaderboard.png")
-    sys.exit(1)
+    sys.exit(0)
 
 font = ImageFont.truetype("Bekstap-Regular.ttf", font_size*big_font_ratio)#56
 
@@ -53,6 +53,7 @@ for i, line in enumerate(lines):
 #img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
+
 
 
 
