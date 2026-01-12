@@ -1,17 +1,24 @@
 # generate_image.py
 from PIL import Image, ImageDraw, ImageFont
+import sys
 
 with open("leaderboard.txt") as f:
     lines = [l.strip() for l in f if l.strip()]
 big_font_ratio = 1.525
-font_size = 900/len(lines)
-# long text may exceed image, so font has a max size
-if font_size > 55:
-    font_size = 55
 
 # Load template
 img = Image.open("template.png")
 draw = ImageDraw.Draw(img)
+
+try:
+    font_size = 900/len(lines)
+    # long text may exceed image, so font has a max size
+    if font_size > 55:
+        font_size = 55
+except: # empty file, nothing to write
+    img.save("leaderboard.png")
+    sys.exit(0)
+
 font = ImageFont.truetype("Bekstap-Regular.ttf", font_size*big_font_ratio)#56
 
 border = 60
@@ -46,3 +53,8 @@ for i, line in enumerate(lines):
 #img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
+
+
+
+
+
