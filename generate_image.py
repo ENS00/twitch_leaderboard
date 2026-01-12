@@ -10,7 +10,8 @@ try:
     if font_size > 55:
         font_size = 55
 except: # empty file, nothing to write
-    font_size = 0
+    img.save("leaderboard.png")
+    sys.exit(1)
 
 # Load template
 img = Image.open("template.png")
@@ -49,4 +50,5 @@ for i, line in enumerate(lines):
 #img.thumbnail((320,scale_Y*320), Image.Resampling.LANCZOS)
 
 img.save("leaderboard.png")
+
 
