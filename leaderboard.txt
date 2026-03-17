@@ -1,6 +1,6 @@
 Tipe [4]
 Alles Morales [4]
-GlobalWarning [3]
+GlobalWarning [4]
 DjSapsan [3]
 The Otter One [2.5]
 maxymczech [2]
